@@ -1,0 +1,137 @@
+
+/* Swappy CSS */
+
+.container {
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    width: 30%;
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .second-row {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .slot {
+    background:rgba(0, 0, 0, 0.3);
+    flex: 1;
+    border-radius: 10px
+  }
+  
+  .slot.a {
+    flex-basis: 150px;
+    height: 150px;
+  }
+  
+  .slot.b {
+    flex: 2;
+  }
+  
+  .second-row {
+    height:auto;
+  }
+  
+  .slot.d {
+    flex-basis: auto;
+    height: 100px;
+  }
+  
+  .slot.e {
+    flex-basis: 150px;
+    height: 150px;
+  }
+  
+  .slot.f {
+    flex-basis: 250px;
+    height: 250px;
+  }
+  
+  .slot.g {
+    flex-basis: auto;
+    height: 100px;
+  }
+  
+  .slot.h {
+    flex-basis: auto;
+    height: 100px;
+  }
+  
+  
+  
+  .item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: smaller;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    position: relative;
+    padding-left:0rem;
+    padding-right:0rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    
+  }
+/*   
+  .item.a {
+    background: #86c2f386;
+  }
+  
+  .item.b {
+    background: #86c2f386;
+  }
+  
+  .item.c {
+    background: #86c2f386;
+  }
+  
+  .item.d {
+    background: #86c2f386; 
+  }
+  
+  .item.e {
+    background: #86c2f386; 
+  }
+  
+  .item.f {
+    background: #86c2f386; 
+  }
+  
+  .item.g {
+    background: #86c2f386; 
+  }
+  
+  .item.h {
+    background: #86c2f386; 
+  } */
+  
+  [data-swapy-highlighted] {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .handle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px
+    
+  }
+  
+  .enable-input {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+  }
+  
